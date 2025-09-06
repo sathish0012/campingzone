@@ -1,0 +1,111 @@
+.navbar {
+    background-color: #4e342e !important; /* Dark brown, earthy tone */
+    border-bottom: 1px solid #795548;
+}
+
+.navbar-brand {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    color: #f5f5dc !important; /* A light beige/cream color */
+}
+
+.nav-link {
+    font-family: 'Lora', serif;
+    color: #d2b48c !important; /* A light tan color */
+    transition: color 0.3s ease;
+    margin-right:30px ;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.btn-outline-light {
+    color: #ffb74d; /* A warm orange */
+    border-color: #ffb74d;
+    transition: all 0.3s ease;
+    height: 40px;
+
+}
+
+.btn-outline-light:hover {
+    background-color: #ffb74d;
+    color: #4e342e;
+}
+
+
+/* Hero Section */
+.hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x1080.png?text=Forest+Path');
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
+
+.hero-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.custom-btn-primary {
+    background-color: #388e3c; /* Forest green */
+    border-color: #388e3c;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.custom-btn-primary:hover {
+    background-color: #2e7d32;
+    border-color: #2e7d32;
+}
+
+/* About Section */
+#about {
+    background-color: #e6e8e6; /* A soft, natural gray */
+}
+
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #4b5320;
+}
+
+.fa-check-circle {
+    color: #388e3c;
+}
+
+/* Gallery Section */
+#gallery {
+    background-color: #fff;
+    padding: 15px;
+    margin: 0px;
+}
+
+.gallery-img {
+    border: 5px solid #d2b48c; /* A woody, tan border */
+    transition: transform 0.3s ease;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+/* CTA Section */
+.cta-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://via.placeholder.com/1920x500.png?text=Night+Sky+Over+Tents');
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-btn-secondary {
+    background-color: #ff9800; /* Bright orange for high contrast */
+    border-color: #ff9800;
+    font-weight: bold;
+}
+
+.custom-btn-secondary:hover {
+    background-color: #e65100;
+    border-color: #e65100;
+}

@@ -1,0 +1,94 @@
+/*--------------------------------login page start----------------------------------------*/
+
+/* Base styles for all screen sizes (Mobile-first approach) */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+    /* Background image styles for full screen coverage */
+    background-image: url('your-image-url.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* For vertical centering */
+}
+
+.vh-100 {
+    min-height: 100vh;
+}
+
+
+.card {
+    margin-right: 30px !;
+    height: 350px;
+    width: 350px;
+    border: 3px solid rgb(128, 128, 131); 
+    border-radius: 5px 25px 5px 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+
+}
+
+.card-title {
+    color: #495057; 
+    font-weight: 600;
+    text-align: center;
+}
+
+.form-group {
+    font-family: sans-serif;
+    font-size: large;
+}
+
+.form-control {
+    font-family: sans-serif;
+    border-radius: 8px;
+    border: 1px solid #ced4da;
+    transition: border-color 0.3s ease;
+    width: 100%;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+/* Media query for larger screens (e.g., tablets and desktops) */
+@media (min-width: 768px) {
+    .container {
+        width: auto;
+        padding: 40px; /* Increase padding on larger screens */
+        margin-right: 70%; /* Keep the form on the left side for desktops */
+    }
+
+    body {
+        align-items: flex-start; /* Align content to the left on larger screens */
+        justify-content: center;
+        padding-left: 15%; /* Add some padding on the left to move the content */
+    }
+}
+
+/*--------------------------------login page end----------------------------------------*/

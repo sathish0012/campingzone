@@ -1,0 +1,78 @@
+/* General Body Styles */
+body {
+    font-family: 'Lora', serif;
+    background-color: #f5f5dc;
+    color: #4b5320;
+}
+
+/* Payment Hero Section */
+.payment-hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x800.png?text=Payment+Background');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    padding-top: 56px;
+}
+
+.payment-hero-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Section Titles */
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #4b5320;
+}
+
+/* Payment Details Section */
+#payment-details {
+    background-color: #f7f3e9;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 2px solid #388e3c;
+}
+
+.list-unstyled li {
+    font-family: 'Lora', serif;
+    padding: 8px 0;
+}
+
+.form-control {
+    border-radius: 0;
+    border: 1px solid #d2b48c;
+    background-color: #fff;
+    color: #4e342e;
+}
+
+.form-control:focus {
+    border-color: #795548;
+    box-shadow: none;
+}
+
+/* Custom Button Styles (consistent with other pages) */
+.custom-btn-primary {
+    background-color: #388e3c;
+    border-color: #388e3c;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    margin: 30px;
+    
+   
+}
+
+.custom-btn-primary:hover {
+    background-color: #2e7d32;
+    border-color: #2e7d32;
+    
+}
+
+
+
+/* Footer Styles (consistent with other pages) */

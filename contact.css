@@ -1,0 +1,116 @@
+/* General Body Styles */
+body {
+    font-family: 'Lora', serif;
+    background-color: #f5f5dc;
+    color: #4b5320;
+}
+
+/* Nav Bar Styles (consistent with other pages) */
+.navbar {
+    background-color: #4e342e !important; /* Dark brown, earthy tone */
+    border-bottom: 1px solid #795548;
+}
+
+.navbar-brand {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    color: #f5f5dc !important; /* A light beige/cream color */
+}
+
+.nav-link {
+    font-family: 'Lora', serif;
+    color: #d2b48c !important; /* A light tan color */
+    transition: color 0.3s ease;
+    margin-right:30px ;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.btn-outline-light {
+    color: #ffb74d; /* A warm orange */
+    border-color: #ffb74d;
+    transition: all 0.3s ease;
+    height: 40px;
+
+}
+
+.btn-outline-light:hover {
+    background-color: #ffb74d;
+    color: #4e342e;
+}
+
+
+/* Contact Hero Section */
+.contact-hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x800.png?text=Contact+Background');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    padding-top: 56px;
+}
+
+.contact-hero-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Section Titles */
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #4b5320;
+}
+
+/* Contact Form */
+#contact-form {
+    background-color: #f7f3e9;
+}
+
+.form-control {
+    border-radius: 0;
+    border: 1px solid #d2b48c;
+    background-color: #fff;
+    color: #4e342e;
+}
+
+.form-control:focus {
+    border-color: #795548;
+    box-shadow: none;
+}
+
+/* Contact Info Section */
+#contact-info {
+    background-color: #e6e8e6;
+}
+
+/* Custom Button Styles (consistent with other pages) */
+.custom-btn-primary {
+    background-color: #388e3c;
+    border-color: #388e3c;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.custom-btn-primary:hover {
+    background-color: #2e7d32;
+    border-color: #2e7d32;
+}
+
+/* Footer Styles (consistent with other pages) */
+footer {
+    background-color: #4e342e !important;
+    color: #efebe9 !important;
+}
+
+footer a {
+    color: #d2b48c;
+}
+
+footer a:hover {
+    color: #fff;
+}

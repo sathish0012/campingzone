@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now - Natural Camping</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="booknow.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Lora:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="home.html">Natural Camping</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="activities.html">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="btn btn-outline-light ml-lg-3" href="booknow.html">Book Now <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="booking-hero-section text-center text-white d-flex align-items-center justify-content-center" style="background-image: url(backround.jpg);">
+        <div class="container">
+            <h1 class="display-4 font-weight-bold mb-4">Book Your Escape</h1>
+            <p class="lead">Reserve your spot in nature's paradise today!</p>
+        </div>
+    </header>
+
+    <section class="py-5" id="booking-form-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="section-title text-center mb-4">Your Booking Details</h2>
+                    <h2 class="h2">2 DAYS PACKAGES......</h2>
+                    <form action="payment.html" method="get">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Full Name</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="guests">Number of Guests</label>
+                                <input type="number" class="form-control" id="guests" name="guests" min="1" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="check-in">Check-in Date</label>
+                                <input type="date" class="form-control" id="check-in" name="check-in" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="check-out">Check-out Date</label>
+                                <input type="date" class="form-control" id="check-out" name="check-out" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="package">Choose Your Package</label>
+                            <select class="form-control" id="package" name="package" required>
+                                <option selected disabled value="">Select a package...</option>
+                                <option value="basic">Basic Camping (₹8,000)</option>
+                                <option value="adventure">Adventure Package (₹15,000)</option>
+                                <option value="relax">Relax & Reconnect Package (₹22,000)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Special Requests (Optional)</label>
+                            <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                        </div>
+                        <div class="conformbooking">
+                            <button type="submit" class="btn btn-lg btn-primary custom-btn-primary">Confirm Booking</button>
+                        </div>
+                         
+                    </form>
+                   
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h5>Natural Camping</h5>
+                    <p>Experience the wild, responsibly.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact</h5>
+                    <p class="mb-0">info@naturalcamping.com</p>
+                    <p class="mb-0">+91 98765 43210</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center text-muted border-top pt-3 mt-3">
+            &copy; 2025 Natural Camping. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+/* General Body Styles */
+body {
+    font-family: 'Lora', serif;
+    background-color: #f5f5dc; /* A light, creamy beige */
+    color: #4b5320; /* Deep olive green */
+}
+
+/* Nav Bar Styles (consistent with Home page) */
+.navbar {
+    background-color: #4e342e !important; /* Dark brown, earthy tone */
+    border-bottom: 1px solid #795548;
+}
+
+.navbar-brand {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    color: #f5f5dc !important; /* A light beige/cream color */
+}
+
+.nav-link {
+    font-family: 'Lora', serif;
+    color: #d2b48c !important; /* A light tan color */
+    transition: color 0.3s ease;
+    margin-right:30px ;
+}
+
+.nav-link:hover {
+    color: #fff !important;
+}
+
+.btn-outline-light {
+    color: #ffb74d; /* A warm orange */
+    border-color: #ffb74d;
+    transition: all 0.3s ease;
+    height: 40px;
+
+}
+
+.btn-outline-light:hover {
+    background-color: #ffb74d;
+    color: #4e342e;
+}
+
+/* About Hero Section */
+.about-hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://via.placeholder.com/1920x800.png?text=About+Us+Background');
+    background-size: cover;
+    background-position: center;
+    height: 60vh; /* Shorter than the home hero */
+    padding-top: 56px; /* Adjust for fixed navbar */
+}
+
+.about-hero-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Section Titles */
+.section-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #4b5320;
+}
+
+/* Team Member Cards */
+.team-member img {
+    border: 5px solid #d2b48c;
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover img {
+    transform: scale(1.05);
+}
+
+.team-member h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #4e342e;
+}
+
+/* Footer Styles (consistent with Home page) */
+footer {
+    background-color: #4e342e !important;
+    color: #efebe9 !important;
+}
+
+footer a {
+    color: #d2b48c;
+}
+
+footer a:hover {
+    color: #fff;
+}
